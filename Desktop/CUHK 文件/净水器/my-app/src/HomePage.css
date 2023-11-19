@@ -1,0 +1,76 @@
+/* HomePage.css */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    position: fixed; /* Make navbar fixed at the top */
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* High z-index to ensure it's above other elements */
+    top: 0; /* Align to the top */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+.hero-buttons {
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.hero-buttons button {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for mouse-over */
+}
+
+.hero-buttons button:hover {
+    background-color:skyblue; /* Darker shade for hover effect */
+}
+
+
+
+
+
+.hero-section {
+    padding-top: 60px; /* Push content down to account for the fixed navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make hero section fill the screen height */
+    text-align: center;
+    color: white;
+    margin-top: 40px; /* Adjust if necessary to ensure separation from navbar */
+    background-image: url('./bi3.jpeg'); /* Update with the correct path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fixed background on scroll */
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    position: relative; /* Ensure that it is positioned in relation to its nearest positioned ancestor */
+    top: 40px; /* Adjust if necessary for correct positioning */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; /* Center vertically in the hero section */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+}

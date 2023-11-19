@@ -1,0 +1,22 @@
+/* MaintenanceScheduling.css */
+
+.maintenance-scheduling-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.maintenance-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.maintenance-info {
+    margin-bottom: 20px;
+}
+
+.back-button {
+    /* Reuse the same styles as defined previously for the back button */
+}

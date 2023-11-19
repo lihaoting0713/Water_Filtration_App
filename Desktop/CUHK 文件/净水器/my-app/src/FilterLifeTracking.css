@@ -1,0 +1,22 @@
+/* FilterLifeTracking.css */
+
+.filter-life-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.filter-life-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.filter-status {
+    margin-bottom: 20px;
+}
+
+.back-button {
+    /* You can reuse the same styles as defined previously for the back button */
+}
